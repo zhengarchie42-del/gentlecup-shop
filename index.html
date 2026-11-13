@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GentleCup — Low-Acid Instant Coffee</title>
+  <meta name="description" content="GentleCup is a smooth, low-acid instant coffee for coffee lovers with sensitive stomachs. Two flavors, Americano Low-Cal and Latte. $14.99 for 20 sticks." />
+  <link rel="icon" href="logo.png" type="image/png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="GentleCup home">
+        <img src="logo.png" alt="GentleCup logo" width="44" height="44" />
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#shop">Shop</a>
+        <a href="#offers">Offers</a>
+        <a href="#why">Why GentleCup</a>
+      </nav>
+      <button class="cart-btn" type="button" aria-label="Cart" id="cart-btn">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 7h15l-1.4 8.2A2 2 0 0 1 17.6 17H8.5A2 2 0 0 1 6.5 15.2L5 4H2" />
+          <circle cx="9" cy="20" r="1.2" fill="currentColor" stroke="none" />
+          <circle cx="17" cy="20" r="1.2" fill="currentColor" stroke="none" />
+        </svg>
+        <span class="cart-count" id="cart-count" hidden>0</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Low-acid instant coffee</p>
+          <h1>Love coffee.<br />Not the heartburn.</h1>
+          <p class="slogan">Gentle on you. Bold in your cup.</p>
+          <p class="lede">Low-acid instant coffee sticks for busy coffee drinkers with sensitive stomachs. Tear a stick, add water, and stir. Ready in 30 seconds. No machine needed.</p>
+          <div class="hero-actions">
+            <a class="btn btn-dark" href="#shop">Shop the flavors</a>
+            <p class="hero-note">Free 5-stick Latte trial pack with every 20-stick box</p>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="gentlecup-packaging-ai.jpg" alt="GentleCup Americano Low-Cal and Latte boxes with instant coffee sticks" />
+        </div>
+      </div>
+    </section>
+
+    <section class="shop" id="shop">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Shop</p>
+          <h2>Two flavors. One gentle cup.</h2>
+          <p class="section-sub">$14.99 per 20-stick box. About $0.75 a stick.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product-card" data-product="Americano Low-Cal">
+            <div class="product-photo">
+              <img src="product-americano.jpg" alt="GentleCup Americano Low-Cal 20-stick box and black sticks" />
+            </div>
+            <div class="product-body">
+              <p class="product-tag">Black stick</p>
+              <h3>Americano Low-Cal</h3>
+              <p class="product-desc">A smooth, low-acid dark roast with no added sugar and no artificial sweeteners.</p>
+              <p class="product-price">$14.99 <span> / 20 sticks</span></p>
+              <p class="product-unit">About $0.75 a stick</p>
+              <button class="btn btn-dark add-btn" type="button">Add to cart</button>
+            </div>
+          </article>
+          <article class="product-card" data-product="Latte">
+            <div class="product-photo">
+              <img src="product-latte.jpg" alt="GentleCup Latte 20-stick box and caramel stick" />
+            </div>
+            <div class="product-body">
+              <p class="product-tag caramel">Caramel stick</p>
+              <h3>Latte</h3>
+              <p class="product-desc">The same gentle, low-acid roast, with a smooth latte taste. Easy to tell apart by the caramel stick.</p>
+              <p class="product-price">$14.99 <span> / 20 sticks</span></p>
+              <p class="product-unit">About $0.75 a stick</p>
+              <button class="btn btn-dark add-btn" type="button">Add to cart</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="offers" id="offers">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Offers</p>
+          <h2>Easy ways to try GentleCup</h2>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <p class="offer-kicker">Free trial</p>
+            <h3>Try the Latte on us</h3>
+            <p>Buy a 20-stick box, get a 5-stick Latte trial pack free. A low-risk way to taste it.</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-kicker">48-hour flash sale</p>
+            <h3>20% off with GENTLE20</h3>
+            <p>Use code <strong>GENTLE20</strong> at checkout for 20% off. A short sale, so it feels special.</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-kicker">GentleCup Rewards</p>
+            <h3>Buy 5 boxes, get 1 free</h3>
+            <p>Stay with the brand you trust. Every fifth box is on us when you join Rewards.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="why" id="why">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Why GentleCup</p>
+          <h2>Coffee without the pain</h2>
+          <p class="section-sub">Made for busy coffee drinkers, ages 18–45, with sensitive stomachs.</p>
+        </div>
+        <div class="why-grid">
+          <article>
+            <h3>Low-acid roast</h3>
+            <p>A smooth dark roast that is gentler on the stomach, so you can love coffee without the heartburn.</p>
+          </article>
+          <article>
+            <h3>Instant sticks</h3>
+            <p>Tear, add water, and stir. Ready in 30 seconds, at home, at school, or at the office. No machine needed.</p>
+          </article>
+          <article>
+            <h3>Two flavors</h3>
+            <p>Americano Low-Cal in a black stick, or Latte in a caramel stick. Clean ingredients, no artificial sweeteners.</p>
+          </article>
+          <article>
+            <h3>About $0.75 a cup</h3>
+            <p>A daily cup that stays affordable. A little more than budget instant, and less than a coffee-shop drink.</p>
+          </article>
+        </div>
+        <p class="cuppy">Our trade character is Cuppy, a smiling little coffee cup.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <img src="logo.png" alt="" width="36" height="36" />
+        <div>
+          <p class="footer-name">GentleCup</p>
+          <p class="footer-slogan">Gentle on you. Bold in your cup.</p>
+        </div>
+      </div>
+      <p class="disclaimer">This is a student class project for a high school Marketing PBM. GentleCup is a made-up brand. Nothing on this site is for sale, and no real orders are taken.</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <script src="script.js"></script>
+</body>
+</html>
